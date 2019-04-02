@@ -1,0 +1,48 @@
+{
+  "name": "mrg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/mrg.js git branch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brizer/multi-repo-git.git"
+  },
+  "keywords": [
+    "multi",
+    "multi-repo",
+    "git"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*.spec.js"
+    ]
+  },
+  "author": "brizer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brizer/multi-repo-git/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/brizer/multi-repo-git#readme",
+  "devDependencies": {
+    "jest": "^24.6.0"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "loop": "^3.1.3",
+    "semver": "^6.0.0"
+  }
+}

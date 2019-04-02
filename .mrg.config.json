@@ -1,0 +1,11 @@
+{
+    "projects":[
+        {
+            "name":"vueDemo",
+            "path":"/Users/liufang/openSource/FunnyLiu/vueDemo"
+        },{
+            "name":"jestDemo",
+            "path":"/Users/liufang/openSource/FunnyLiu/jestDemo"
+        }
+    ]
+}
