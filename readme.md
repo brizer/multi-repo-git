@@ -1,6 +1,6 @@
 # Multi Repo Git
 
-A very simple Git command line tool, to manage multiple git rspositories at once.
+A very simple Git command line tool, to manage multiple git repositories at once.
 
 # Why you need it?
 
