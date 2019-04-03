@@ -1,12 +1,12 @@
 {
-  "name": "mrg",
+  "name": "mrgx",
   "version": "1.0.0",
   "description": "a simple tool to manage multi-repo gits action",
   "bin": {
-    "mrg": "./bin/mrg.js"
+    "mrgx": "./bin/mrgx.js"
   },
   "scripts": {
-    "start": "node bin/mrg.js git branch",
+    "start": "node bin/mrgx.js git branch",
     "test": "jest"
   },
   "repository": {
