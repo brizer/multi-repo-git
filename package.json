@@ -1,8 +1,10 @@
 {
   "name": "mrg",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "a simple tool to manage multi-repo gits action",
+  "bin": {
+    "mrg": "./bin/mrg.js"
+  },
   "scripts": {
     "start": "node bin/mrg.js git branch",
     "test": "jest"
@@ -22,7 +24,7 @@
       "**/__tests__/**/*.spec.js"
     ]
   },
-  "author": "brizer",
+  "author": "brizer <brizer@163.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/brizer/multi-repo-git/issues"
@@ -38,8 +40,6 @@
     "node": ">=8.9"
   },
   "dependencies": {
-    "bluebird": "^3.5.3",
-    "chalk": "^2.4.2",
     "commander": "^2.19.0",
     "fs-extra": "^7.0.1",
     "loop": "^3.1.3",
