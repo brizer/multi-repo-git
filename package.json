@@ -24,6 +24,11 @@
       "**/__tests__/**/*.spec.js"
     ]
   },
+  "husky":{
+    "hooks":{
+      "commit-msg":"node scripts/verifyCommitMsg.js"
+    }
+  },
   "author": "brizer <brizer@163.com>",
   "license": "MIT",
   "bugs": {
@@ -34,6 +39,7 @@
   },
   "homepage": "https://github.com/brizer/multi-repo-git#readme",
   "devDependencies": {
+    "husky": "^1.3.1",
     "jest": "^24.6.0"
   },
   "engines": {
