@@ -34,10 +34,9 @@ mrgx git pull
 
 mrgx will try to read its configuration file from the current command execution path to the ancestor root path.
 
-
 The configuration file must be named `.mrgx.config.json` and be in `json` format. Its best to user it in the root directory,such as `/Users/liufang/.mrgx.config.json`
 
-```
+``` json
 {
     "projects":[
         {
@@ -69,6 +68,17 @@ or
 
 ![img](http://edu-image.nosdn.127.net/b364fdc02c1647288d53460d31aecbab.png?imageView&quality=100)
 
+## Config Params
+
+### git
+
+When using git, it is the same as using the native git command:
+`mrgx git push`, `mrgx git merge master`, and so on.
+
+
+### config
+
+Simplify some operations on the path with the config command, such as `mrgx config ls`, [read here for more details](docs/config.md).
 
 
 # Want to contribute?
