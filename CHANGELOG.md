@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/brizer/multi-repo-git/compare/1.0.5...1.1.0) (2019-04-08)
+
+
+### Features
+
+* add config manage action:ls,addp,rmp ([019187e](https://github.com/brizer/multi-repo-git/commit/019187e))
+
+
+
 ## [1.0.5](https://github.com/brizer/multi-repo-git/compare/1.0.4...1.0.5) (2019-04-08)
 
 
