@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "node bin/mrgx.js git branch",
-    "test": "jest",
+    "test": "jest --runInBand",
     "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "repository": {
