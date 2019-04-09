@@ -1,9 +1,11 @@
 {
   "projects": [
     {
+      "alias": "vueDeom",
       "path": "/Users/liufang/openSource/FunnyLiu/vueDemo"
     },
     {
+      "alias": "jestDemo",
       "path": "/Users/liufang/openSource/FunnyLiu/jestDemo"
     }
   ]
