@@ -53,7 +53,7 @@ mrgx config addp
 mrgx config ls
 ```
 
-The current Path will be added in config file:
+The current Path will be added in config file with a default alias:
 
 ``` json
 {
@@ -80,12 +80,14 @@ The current Path will be added in config file:
       "path": "/Users/liufang/Neteasework/front-study-wap"
     },
     {
+      "alias": "brizer",
       "path": "/Users/liufang/openSource/brizer"
     }
   ]
 }
 ```
 
+The alias is used to rmp quickly.
 
 # rmp
 
@@ -121,6 +123,7 @@ Your path is `/Users/liufang/openSource/brizer`, and your config files content i
       "path": "/Users/liufang/Neteasework/front-study-wap"
     },
     {
+      "alias": "brizer",
       "path": "/Users/liufang/openSource/brizer"
     }
   ]
@@ -164,3 +167,6 @@ The current Path will be removed from config file:
 }
 
 ```
+
+Note that you can use alias to delete the configuration anywhere sincn version 1.1.1 
+

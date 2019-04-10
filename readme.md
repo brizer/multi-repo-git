@@ -36,25 +36,31 @@ mrgx will try to read its configuration file from the current command execution 
 
 The configuration file must be named `.mrgx.config.json` and be in `json` format. Its best to user it in the root directory,such as `/Users/liufang/.mrgx.config.json`
 
-``` json
+```json
 {
-    "projects":[
-        {
-            "path":"/Users/liufang/Neteasework/front-study"
-        },{
-            "path":"/Users/liufang/Neteasework/front-study-web"
-        },{
-            "path":"/Users/liufang/Neteasework/front-study-course"
-        },{
-            "path":"/Users/liufang/Neteasework/front-study-order"
-        },{
-            "path":"/Users/liufang/Neteasework/front-yooc"
-        },{
-            "path":"/Users/liufang/Neteasework/edu-front-2.0"
-        },{
-            "path":"/Users/liufang/Neteasework/front-study-wap"
-        }
-    ]
+  "projects": [
+    {
+      "path": "/Users/liufang/Neteasework/front-study"
+    },
+    {
+      "path": "/Users/liufang/Neteasework/front-study-web"
+    },
+    {
+      "path": "/Users/liufang/Neteasework/front-study-course"
+    },
+    {
+      "path": "/Users/liufang/Neteasework/front-study-order"
+    },
+    {
+      "path": "/Users/liufang/Neteasework/front-yooc"
+    },
+    {
+      "path": "/Users/liufang/Neteasework/edu-front-2.0"
+    },
+    {
+      "path": "/Users/liufang/Neteasework/front-study-wap"
+    }
+  ]
 }
 ```
 
@@ -75,11 +81,9 @@ or
 When using git, it is the same as using the native git command:
 `mrgx git push`, `mrgx git merge master`, and so on.
 
-
 ### config
 
-Simplify some operations on the path with the config command, such as `mrgx config ls`, [read here for more details](docs/config.md).
-
+Simplify some operations on the path with the config command, such as `mrgx config ls`, `mrgx config addp` ,`mrgx config rmp`, [read here for more details](docs/config.md).
 
 # Want to contribute?
 
