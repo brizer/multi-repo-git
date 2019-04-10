@@ -85,6 +85,8 @@ When using git, it is the same as using the native git command:
 
 Simplify some operations on the path with the config command, such as `mrgx config ls`, `mrgx config addp` ,`mrgx config rmp`, [read here for more details](docs/config.md).
 
+There are some more flexible and simple configuration methods, but need to be based on the backup configuration. [read here for more details](docs/backup.md).
+
 # Want to contribute?
 
 At this stage, the tool configuration is very simple and the function is very simple. Any idea to improve this project would be greatly appreciated.

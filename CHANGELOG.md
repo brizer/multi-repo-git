@@ -1,3 +1,13 @@
+# [1.2.0](https://github.com/brizer/multi-repo-git/compare/1.1.1...1.2.0) (2019-04-10)
+
+
+### Features
+
+* add backup param in addp and rmp,so that we can addp a project by alias from backup ([20acec0](https://github.com/brizer/multi-repo-git/commit/20acec0)) [read here for more details](docs/backup.md).
+* add rmb and addb function ([ba90540](https://github.com/brizer/multi-repo-git/commit/ba90540))
+
+
+
 ## [1.1.1](https://github.com/brizer/multi-repo-git/compare/1.1.0...1.1.1) (2019-04-10)
 
 
