@@ -85,7 +85,12 @@ When using git, it is the same as using the native git command:
 
 Simplify some operations on the path with the config command, such as `mrgx config ls`, `mrgx config addp` ,`mrgx config rmp`, [read here for more details](docs/config.md).
 
-There are some more flexible and simple configuration methods, but need to be based on the backup configuration. [read here for more details](docs/backup.md).
+There are some more flexible and simple configuration methods, but need to be based on the **backup** configuration. [read here for more details](docs/backup.md).
+
+
+### symlink
+
+Manage symbolic links with the symlink command, so  that you can reach the project path more efficiently, all based on [sym-lnk](https://www.npmjs.com/package/sym-lnk).  [read here for more details](docs/symlink.md).
 
 # Want to contribute?
 
