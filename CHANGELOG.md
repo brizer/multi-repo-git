@@ -1,3 +1,13 @@
+# [1.4.0](https://github.com/brizer/multi-repo-git/compare/1.3.0...1.4.0) (2019-05-05)
+
+
+### Features
+
+* add config whereis ([e4e6a53](https://github.com/brizer/multi-repo-git/commit/e4e6a53))
+* support package action, to add dependence in project ([1d08eb0](https://github.com/brizer/multi-repo-git/commit/1d08eb0))
+
+
+
 # [1.3.0](https://github.com/brizer/multi-repo-git/compare/1.1.1...1.3.0) (2019-04-11)
 
 
