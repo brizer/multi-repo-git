@@ -92,6 +92,10 @@ There are some more flexible and simple configuration methods, but need to be ba
 
 Manage symbolic links with the symlink command, so  that you can reach the project path more efficiently, all based on [sym-lnk](https://www.npmjs.com/package/sym-lnk).  [read here for more details](docs/symlink.md).
 
+### package
+
+Manage Project's dependencies with the **package** command. Currently only supports bower, you can set **package** as 'bower' in config file to using it. [read here for more details](docs/package.md).
+
 # Want to contribute?
 
 At this stage, the tool configuration is very simple and the function is very simple. Any idea to improve this project would be greatly appreciated.
