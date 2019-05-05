@@ -48,6 +48,7 @@
     "node": ">=8.9"
   },
   "dependencies": {
+    "bluebird": "^3.5.4",
     "commander": "^2.19.0",
     "findup-sync": "^3.0.0",
     "fs-extra": "^7.0.1",
