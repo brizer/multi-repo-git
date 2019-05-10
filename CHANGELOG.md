@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/brizer/multi-repo-git/compare/1.4.0...1.4.1) (2019-05-10)
+
+
+### Bug Fixes
+
+* fixed broken question caused by quote in command ([48f9764](https://github.com/brizer/multi-repo-git/commit/48f9764))
+
+
+
 # [1.4.0](https://github.com/brizer/multi-repo-git/compare/1.3.0...1.4.0) (2019-05-05)
 
 
