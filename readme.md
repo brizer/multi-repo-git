@@ -30,6 +30,11 @@ mrgx git pull
 
 `npm install mrgx -g` will install a `mrgx` command on your system.
 
+## Usage
+
+You can manage multiple projects across folders via configuration files.
+Or you can manage multiple projects in the same folder via the [locals command](#locals).
+
 ## Configuration
 
 mrgx will try to read its configuration file from the current command execution path to the ancestor root path.
@@ -75,6 +80,12 @@ or
 ![img](http://edu-image.nosdn.127.net/b364fdc02c1647288d53460d31aecbab.png?imageView&quality=100)
 
 ## Config Params
+
+### locals
+
+If you don't want to configure complex configuration files (though not complicated), but instead perform a unified operation on all the projects in a folder, you can use the locals command:`mrgx locals git status`, `mrgx locals ls`, and  so on.
+
+![img](https://raw.githubusercontent.com/brizer/graph-bed/master/img/20190617113620.png)
 
 ### git
 
