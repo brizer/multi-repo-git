@@ -1,3 +1,21 @@
+# [1.5.0](https://github.com/brizer/multi-repo-git/compare/1.4.1...1.5.0) (2019-06-17)
+
+
+### Features
+
+* add locals to handle current dir directly ([f4ecb4d](https://github.com/brizer/multi-repo-git/commit/f4ecb4d))
+
+
+
+## [1.4.1](https://github.com/brizer/multi-repo-git/compare/1.4.0...1.4.1) (2019-05-10)
+
+
+### Bug Fixes
+
+* fixed broken question caused by quote in command ([48f9764](https://github.com/brizer/multi-repo-git/commit/48f9764))
+
+
+
 ## [1.4.1](https://github.com/brizer/multi-repo-git/compare/1.4.0...1.4.1) (2019-05-10)
 
 

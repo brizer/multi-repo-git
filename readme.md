@@ -107,6 +107,11 @@ Manage symbolic links with the symlink command, so  that you can reach the proje
 
 Manage Project's dependencies with the **package** command. Currently only supports bower, you can set **package** as 'bower' in config file to using it. [read here for more details](docs/package.md).
 
+# Changelog
+
+[here](./CHANGELOG.md)
+
+
 # Want to contribute?
 
 At this stage, the tool configuration is very simple and the function is very simple. Any idea to improve this project would be greatly appreciated.
