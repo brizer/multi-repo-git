@@ -79,6 +79,7 @@ or
 
 ![img](http://edu-image.nosdn.127.net/b364fdc02c1647288d53460d31aecbab.png?imageView&quality=100)
 
+
 ## Config Params
 
 ### locals
@@ -86,6 +87,7 @@ or
 If you don't want to configure complex configuration files (though not complicated), but instead perform a unified operation on all the projects in a folder, you can use the locals command:`mrgx locals git status`, `mrgx locals ls`, and  so on.
 
 ![img](https://raw.githubusercontent.com/brizer/graph-bed/master/img/20190617113620.png)
+
 
 ### git
 
@@ -106,6 +108,14 @@ Manage symbolic links with the symlink command, so  that you can reach the proje
 ### package
 
 Manage Project's dependencies with the **package** command. Currently only supports bower, you can set **package** as 'bower' in config file to using it. [read here for more details](docs/package.md).
+
+## Options
+
+### **-q, --quiet**
+**B**y default, an error will interrupt the operation**. You can ignore error by `-q` or `--quiet`. Such as:
+
+`mrgx locals -q ls`and `mrgx -q git status`
+
 
 # Changelog
 
