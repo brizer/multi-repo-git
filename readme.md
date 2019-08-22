@@ -6,7 +6,7 @@ A very simple Git command line tool, to manage multiple git repositories at once
 
 If you manage projects using multi-repo style，or worked in a micro service environment, you have most likely been asked to worked with dozen of projects.
 
-This tool amis to replace this:
+This tool is designed to solve the following problems
 
 ```
 cd ./project1
