@@ -1,18 +1,18 @@
+# [1.7.0](https://github.com/brizer/multi-repo-git/compare/1.6.0...1.7.0) (2019-08-06)
+
+
+### Features
+
+* add cmd command ([#4](https://github.com/brizer/multi-repo-git/issues/4)) ([db200ad](https://github.com/brizer/multi-repo-git/commit/db200ad))
+
+
+
 # [1.6.0](https://github.com/brizer/multi-repo-git/compare/1.5.0...1.6.0) (2019-07-31)
 
 
 ### Features
 
 * support quiet mode to ignore error ([b1e7a93](https://github.com/brizer/multi-repo-git/commit/b1e7a93))
-
-
-
-# [1.5.0](https://github.com/brizer/multi-repo-git/compare/1.4.1...1.5.0) (2019-06-17)
-
-
-### Features
-
-* add locals to handle current dir directly ([f4ecb4d](https://github.com/brizer/multi-repo-git/commit/f4ecb4d))
 
 
 

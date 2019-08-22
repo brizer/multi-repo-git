@@ -82,6 +82,17 @@ or
 
 ## Config Params
 
+### cmd
+
+Now, you can do any thing you want (from v1.7.0) by use `mrgx cmd ***` to the content of your config.
+
+``` bash
+mrgx cmd pwd
+
+mrgx cmd npm install
+```
+
+
 ### locals
 
 If you don't want to configure complex configuration files (though not complicated), but instead perform a unified operation on all the projects in a folder, you can use the locals command:`mrgx locals git status`, `mrgx locals ls`, and  so on.
