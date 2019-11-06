@@ -1,3 +1,11 @@
+## [1.7.1](https://github.com/brizer/multi-repo-git/compare/1.7.0...1.7.1) (2019-11-06)
+
+
+### Bug Fixes
+
+* **deps:** upgrade lodash to fix security problem ([237318b](https://github.com/brizer/multi-repo-git/commit/237318bb4a026def49d8e005b44738066519ae20))
+
+
 # [1.7.0](https://github.com/brizer/multi-repo-git/compare/1.6.0...1.7.0) (2019-08-06)
 
 
