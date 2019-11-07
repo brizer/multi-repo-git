@@ -39,6 +39,68 @@ The terminal will show content as json:
 }
 ```
 
+## ui
+
+If you use [backup](./backup.md), you can use `mrgx config ui` to choose projects more easier.
+
+### Example
+
+The content of your config file `.mrgx.config.json` is :
+
+``` json
+{
+  "projects": [
+    {
+      "path": "/Users/liufang/Neteasework/front-study-wap",
+      "alias": "front-study-wap"
+    }
+  ],
+  "backup": [
+    {
+      "path": "/Users/liufang/Neteasework/front-study-wap",
+      "alias": "front-study-wap"
+    },
+    {
+      "path": "/Users/liufang/Neteasework/front-study-web",
+      "alias": "front-study-web"
+    }
+  ]
+}
+```
+
+Now you want to choose `front-study-web` and `front-study-wap` together. Use `mrgx config ui`, and choose both of them:
+
+<img src="https://raw.githubusercontent.com/brizer/graph-bed/master/img/20191107202703.png"/>
+
+The content of your config will be:
+
+``` json
+{
+  "projects": [
+    {
+      "path": "/Users/liufang/Neteasework/front-study-web",
+      "alias": "front-study-web"
+    },
+    {
+      "path": "/Users/liufang/Neteasework/front-study-wap",
+      "alias": "front-study-wap"
+    }
+  ],
+  "backup": [
+    {
+      "path": "/Users/liufang/Neteasework/front-study-wap",
+      "alias": "front-study-wap"
+    },
+    {
+      "path": "/Users/liufang/Neteasework/front-study-web",
+      "alias": "front-study-web"
+    }
+  ]
+}
+```
+
+The you can operate both of `front-study-web` and `front-study-wap`.
+
 
 ## addp
 

@@ -107,7 +107,7 @@ When using git, it is the same as using the native git command:
 
 ### config
 
-Simplify some operations on the path with the config command, such as `mrgx config ls`, `mrgx config addp` ,`mrgx config rmp`, [read here for more details](docs/config.md).
+Simplify some operations on the path with the config command, such as `mrgx config ls`, `mrgx config addp` ,`mrgx config rmp`,`mrgx config ui`, [read here for more details](docs/config.md).
 
 There are some more flexible and simple configuration methods, but need to be based on the **backup** configuration. [read here for more details](docs/backup.md).
 
