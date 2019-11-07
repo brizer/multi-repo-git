@@ -1,3 +1,12 @@
+# [1.8.0](https://github.com/brizer/multi-repo-git/compare/1.7.2...1.8.0) (2019-11-07)
+
+
+### Features
+
+* add config ui command, to select backup more easier ([89aec48](https://github.com/brizer/multi-repo-git/commit/89aec48176256468920b6e9bcc81459312e0f139))
+
+
+
 ## [1.7.2](https://github.com/brizer/multi-repo-git/compare/1.7.1...1.7.2) (2019-11-06)
 
 
@@ -19,14 +28,6 @@
 
 * add cmd command ([144f4bb](https://github.com/brizer/multi-repo-git/commit/144f4bbbcfd7fa8cfcc0c4e7c294c73825f1ebf4))
 
-
-
-## [1.7.1](https://github.com/brizer/multi-repo-git/compare/1.7.0...1.7.1) (2019-11-06)
-
-
-### Bug Fixes
-
-* **deps:** upgrade lodash to fix security problem ([237318b](https://github.com/brizer/multi-repo-git/commit/237318bb4a026def49d8e005b44738066519ae20))
 
 
 # [1.7.0](https://github.com/brizer/multi-repo-git/compare/1.6.0...1.7.0) (2019-08-06)

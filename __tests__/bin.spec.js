@@ -31,7 +31,7 @@ Commands:
     it('mrgx --version', done => {
       coffee.fork(mrgx, [ '--version' ])
         // .debug()
-        .expect('stdout', '1.7.2\n')
+        .expect('stdout', '1.8.0\n')
         .expect('code', 0)
         .end(done);
     });
