@@ -6,6 +6,5 @@
 const registCommander = require('../lib/commander')
 const curVersion = require("../package.json").version;
 
-
 // 注册命令
 registCommander(curVersion);
