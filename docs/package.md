@@ -4,12 +4,30 @@
 
 This command is mainly used to add dependencies to the items in the configuration file in batches. At present, only the branch dependency mode of bower.json is supported, and subsequent support for package.json may be added according to requirements.
 
+First time you should add packageName into your config:
+
+``` json
+{
+  "projects": [
+  ],
+  "backup": [
+  ],
+  "package": "bower"
+}
+```
+
 ## Usage
 
 Add common-layout package dependencies to all projects, and branch to feature/settle_lf_20190423
 
 ``` shell
 mrgx package add -p common-layout -b feature/settle_lf_20190423
+```
+
+You can also add multiple package dependencies, separated by `,` such as:
+
+``` shell
+mrgx package add -p common-layout,ykt-config -b feature/settle_lf_20190423
 ```
 
 Add a dependency package to a project front-study, provided that its alias alias is configured in the configuration file .mrgx.config.json.
