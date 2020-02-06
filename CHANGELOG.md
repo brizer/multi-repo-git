@@ -1,3 +1,17 @@
+# [1.9.0](https://github.com/brizer/multi-repo-git/compare/1.8.0...1.9.0) (2020-02-06)
+
+
+### Bug Fixes
+
+* limit the version of handlebars to avoid safe problem ([44e473c](https://github.com/brizer/multi-repo-git/commit/44e473c89aea6df65cae9c71e5066432ede7e037))
+
+
+### Features
+
+* support multi package when change depends ([0b57fc1](https://github.com/brizer/multi-repo-git/commit/0b57fc11292084112bb28942a15c461fcb2a18f9))
+
+
+
 # [1.8.0](https://github.com/brizer/multi-repo-git/compare/1.7.2...1.8.0) (2019-11-07)
 
 
