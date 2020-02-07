@@ -1,3 +1,14 @@
+## [1.9.1](https://github.com/brizer/multi-repo-git/compare/1.8.0...1.9.1) (2020-02-07)
+
+
+
+### Features
+
+* add onlyUpdate model for package adding ([ac27035](https://github.com/brizer/multi-repo-git/commit/ac270352a77162c09894265382b0bd87d15aba95))
+* support multi package when change depends ([0b57fc1](https://github.com/brizer/multi-repo-git/commit/0b57fc11292084112bb28942a15c461fcb2a18f9))
+
+
+
 # [1.9.0](https://github.com/brizer/multi-repo-git/compare/1.8.0...1.9.0) (2020-02-06)
 
 
