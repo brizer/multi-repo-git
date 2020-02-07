@@ -1,5 +1,7 @@
 # Multi Repo Git [![npm](https://img.shields.io/npm/v/mrgx.svg?maxAge=2592000)](https://www.npmjs.com/package/mrgx) [![Build Status](https://travis-ci.org/brizer/multi-repo-git.svg?branch=master)](https://travis-ci.org/brizer/multi-repo-git)
 
+[中文文档](https://github.com/brizer/multi-repo-git/blob/master/readme_zh.md)
+
 A very simple Git command line tool, to manage multiple git repositories at once.
 
 # Why you need it?
