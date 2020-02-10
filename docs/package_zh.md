@@ -52,3 +52,7 @@ mrgx package add -p common-layout -b feature/settle_lf_20190423 -t front-study
 ### -b --branch
 
 用于指定依赖包修改后的分支
+
+### -o --onlyUpdate
+
+只有当有次依赖项时才会更新，否则无修改

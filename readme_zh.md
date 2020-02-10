@@ -123,7 +123,7 @@ mrgx cmd npm install
 
 ### package
 
-管理项目的包依赖，通过**package**命令。现在只支持bower，如果要使用此功能，需要配置**package**字段，[具体查看这里](docs/package.md).
+管理项目的包依赖，通过**package**命令。现在只支持bower，如果要使用此功能，需要配置**package**字段，[具体查看这里](docs/package_zh.md).
 
 ## 选项
 

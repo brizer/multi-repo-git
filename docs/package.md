@@ -56,3 +56,7 @@ A dependency that specifies which package to replace or add.
 ### -b --branch
 
 Used to specify the modified branch of the dependency package
+
+### -p --onlyUpdate
+
+A package will be updated only when it's used by the project
