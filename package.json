@@ -10,6 +10,7 @@
     "test": "jest --runInBand --detectOpenHandles",
     "changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brizer/multi-repo-git.git"
