@@ -1,6 +1,6 @@
 {
   "name": "mrgx",
-  "version": "1.9.1-alpha.2",
+  "version": "1.10.0",
   "description": "a simple tool to manage multi-repo gits action",
   "bin": {
     "mrgx": "./bin/mrgx.js"
