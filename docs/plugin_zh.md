@@ -6,6 +6,7 @@
 如果有好的插件欢迎提PR。
 
 - [mrgx-plugin-exec](https://github.com/brizer/mrgx-plugin-exec) - 在多个工程中共同执行某些shell命令
+- [mrgx-plugin-changed](https://github.com/brizer/mrgx-plugin-changed) - 查询哪些包未提交及其未提交的内容
 
 
 
