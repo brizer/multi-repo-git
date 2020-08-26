@@ -134,6 +134,33 @@ mrgx cmd npm install
 `mrgx locals -q ls`和`mrgx -q git status`
 
 
+# 插件系统
+
+从1.10开始，mrgx支持通过插件系统来扩展子命令。具体操作及文档请查看[插件系统。](./docs/plugin_zh.md)
+
+
+## 插件的安装
+
+首先确保mrgx被正常全局安装过：
+
+``` bash
+npm i mrgx -g
+```
+
+然后安装以`mrgx-plugin-`开头的对应插件比如`mrgx-plugin-exec`:
+
+``` bash
+npm i mrgx-plugin-exec -g
+```
+
+就可以执行对应插件提供的子命令和相关逻辑了。
+
+
+
+## 插件列表
+
+- [mrgx-plugin-exec](https://github.com/brizer/mrgx-plugin-exec) - 在monorepo中共同执行某些shell命令
+
 # Changelog
 
 [这里](./CHANGELOG.md)

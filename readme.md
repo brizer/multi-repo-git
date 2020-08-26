@@ -130,6 +130,38 @@ Manage Project's dependencies with the **package** command. Currently only suppo
 `mrgx locals -q ls`and `mrgx -q git status`
 
 
+
+# Plugin System
+
+Mrgx supports the extension of sub-commands through the plugin system starting from 1.10,  For specific operations and documentation, please see [Plugin System](./docs/plugin.md)
+
+
+
+## Install of plugin
+
+First, make sure that `mrgx` was installed in global:
+
+``` bash
+npm i mrgx -g
+```
+
+Then install the plugin which is starting with `mrgx-plugin-` such as `mrgx-plugin-exec`:
+
+``` bash
+npm i mrgx-plugin-exec -g
+```
+
+Finally, you can execute the sub-commands and related logic provided by the plugin.
+
+
+
+## Plugin list
+
+If you have a good idea for a plugin, welcome to PR or Issue.
+
+- [mrgx-plugin-exec](https://github.com/brizer/mrgx-plugin-exec) - exec command in multi projects.
+
+
 # Changelog
 
 [here](./CHANGELOG.md)
