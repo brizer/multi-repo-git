@@ -127,11 +127,20 @@ mrgx cmd npm install
 
 ## 选项
 
+### **-l, --local**
+
+开启当前目录multi-repo模式，操作的项目集不再取自配置文件，而是当前目录下的所有文件夹。
+
+``` 
+mrgx -l git status
+```
+
 ### **-q, --quiet**
 
 默认情况下所有错误会中断操作，如果不想中断，你可以通过`-q` 或者`--quiet`忽略错误，例如o
 
 `mrgx locals -q ls`和`mrgx -q git status`
+
 
 
 # 插件系统
@@ -159,7 +168,8 @@ npm i mrgx-plugin-exec -g
 
 ## 插件列表
 
-- [mrgx-plugin-exec](https://github.com/brizer/mrgx-plugin-exec) - 在monorepo中共同执行某些shell命令
+- [mrgx-plugin-exec](https://github.com/brizer/mrgx-plugin-exec) - 在多个路径中共同执行某些shell命令
+- [mrgx-plugin-changed](https://github.com/brizer/mrgx-plugin-changed) - 查询哪些包未提交及其未提交的内容
 
 # Changelog
 

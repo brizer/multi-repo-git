@@ -124,6 +124,15 @@ Manage Project's dependencies with the **package** command. Currently only suppo
 
 ## Options
 
+### **-l, --local**
+
+Open the current directory multi-repo mode, the set of items to operate is no longer taken from the configuration file, but all the folders in the current directory.
+
+``` 
+mrgx -l git status
+```
+
+
 ### **-q, --quiet**
 **B**y default, an error will interrupt the operation**. You can ignore error by `-q` or `--quiet`. Such as:
 
@@ -160,7 +169,7 @@ Finally, you can execute the sub-commands and related logic provided by the plug
 If you have a good idea for a plugin, welcome to PR or Issue.
 
 - [mrgx-plugin-exec](https://github.com/brizer/mrgx-plugin-exec) - exec command in multi projects.
-
+- [mrgx-plugin-changed](https://github.com/brizer/mrgx-plugin-changed) - Show which project was changed and not commit, or it's diff details.
 
 # Changelog
 

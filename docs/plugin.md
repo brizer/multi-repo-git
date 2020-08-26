@@ -6,6 +6,8 @@
 If you have a good idea for a plugin, welcome to PR or Issue.
 
 - [mrgx-plugin-exec](https://github.com/brizer/mrgx-plugin-exec) - exec command in multi projects.
+- [mrgx-plugin-changed](https://github.com/brizer/mrgx-plugin-changed) - Show which project was changed and not commit, or it's diff details.
+
 
 
 
