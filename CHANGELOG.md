@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/brizer/multi-repo-git/compare/1.9.1...1.10.1) (2020-08-26)
+
+
+### Features
+
+* add local support ([2bacc63](https://github.com/brizer/multi-repo-git/commit/2bacc63b4931e470e1005e695220d19fd673e60d))
+
 # [1.10.0](https://github.com/brizer/multi-repo-git/compare/1.9.1...1.10.0) (2020-08-26)
 
 
