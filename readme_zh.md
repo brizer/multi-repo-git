@@ -142,6 +142,15 @@ mrgx -l git status
 `mrgx locals -q ls`和`mrgx -q git status`
 
 
+### **-e, --exclude**
+
+排查哪些文件，仅支持local情况下使用。
+
+在当前文件夹下除了Manhattan,growth,index.js,market以为的文件下执行`git pull`
+
+``` bash
+mrgx -e Manhattan,growth,index.js,market locals git pull
+```
 
 # 插件系统
 

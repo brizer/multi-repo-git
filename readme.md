@@ -138,7 +138,15 @@ mrgx -l git status
 
 `mrgx locals -q ls`and `mrgx -q git status`
 
+### **-e, --exclude**
 
+exclude some file, can only be used in `mrgx locals`.
+
+Execute under the files in the current folder except `Manhattan, growth, index.js, and market` thought `git pull`.
+
+``` bash
+mrgx -e Manhattan,growth,index.js,market locals git pull
+```
 
 # Plugin System
 
