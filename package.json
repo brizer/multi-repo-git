@@ -47,7 +47,7 @@
     "jest": "^24.6.0",
     "lodash": "^4.17.15",
     "mixin-deep": "^2.0.1",
-    "set-value": "^3.0.1",
+    "set-value": "^4.0.1",
     "minimist": ">=0.2.1",
     "acorn": ">=5.7.4",
     "kind-of": ">=6.0.3"
